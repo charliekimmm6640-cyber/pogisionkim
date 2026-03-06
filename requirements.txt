@@ -1,8 +1,8 @@
-streamlit==1.41.1
-yfinance==1.2.0
-google-generativeai==0.8.3
-pandas==2.2.3
-plotly==5.24.1
-requests==2.32.3
-python-dotenv==1.0.1
-numpy==2.2.1
+streamlit
+yfinance
+google-generativeai
+pandas
+plotly
+requests
+python-dotenv
+numpy
