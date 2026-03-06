@@ -38,6 +38,7 @@ def get_stock_data(period: str = "3mo") -> dict:
                     "high_52w": round(hist["Close"].max(), 2),
                     "low_52w": round(hist["Close"].min(), 2),
                     "history": hist["Close"],
+                    "ohlcv": hist[["Open", "High", "Low", "Close"]],
                 }
         except Exception as e:
             result[name] = {"error": str(e)}
